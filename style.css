@@ -66,8 +66,9 @@ body{
  }
 
   .sec3{
-    min-height: 100vh;
+    min-height: 140vh;
     max-width: 100%;
+    padding: 30px;
   }
 
 
@@ -77,26 +78,108 @@ body{
   max-width: 350px;
  }
 
- .cart{
+ .carts{
     max-width: 100%;
-    background-color: aqua;
+    min-height: 80vh;
+    /* background-color: aqua; */
     flex-direction: row !important;
+    gap: 30px;
+    padding: 20px;
+    justify-content: center;
  }
 
+  .sec4 {
+     min-height: 150vh;
+    max-width: 100%;
+    background-color: rgb(210, 209, 208);
+  position: relative;
+  gap: 30px;
+  padding: 50px;
+  }
+
+  .mob {
+margin-left: 180px;
+margin-top: 500px;
+position: absolute;
+top: 0; right:0 ;left: 0;
 
 
+ }
+
+  .sec4 .mob img{
+    max-width: 600px !important;
+
+  }
+
+  .flexible{
+    max-width: 2200px;
+    min-height: 40vh;
+    background-color: rgb(246, 246, 247);
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+   .flexible:hover{
+    padding: 2em;
+   }
+
+button:hover{
+    padding: 1.5em !important;
+    color: black !important;
+    background-color: gray !important;
+}
+
+.ttt{
+    padding: 2em !important;
+}
+
+.ccc{
+    gap: 40px;
+    max-width: 100%;
+}
+
+.ff{
+    margin-left: 200px;
+}
+
+.footer{
+    max-width: 100%;
+    min-height: 50vh;
+    /* background-color: aqua; */
+    padding: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:960px){
+     .carts{
+        flex-direction: column !important;
+        /* background-color: brown; */
+        
+    }
+}
 
 
 @media(max-width:700px){
     .hero{
-        background-color: bisque;
+        /* background-color: bisque; */
         flex-direction: column;
         gap: 20px;
+      margin-top: 90px;
 
     }
 
     .buttons{
         gap: 20px;
+       
     }
 
     .himage img{
@@ -116,8 +199,19 @@ body{
     .carts{
         flex-direction: column !important;
     }
+
+    .bttt{
+        margin-top: 10px;
+    }
+
 }
 
+@media(max-width:847px){
+.footer{
+    gap: 40px;
+    flex-direction: column;
+}
+}
 
 @media(max-width:635px){
     .input{
@@ -132,10 +226,28 @@ body{
     width: 100%;
  }
 
+
+
+
+
+
 }
 
 
+@media(max-width:808px){
+    .flexible{
+        /* background-color: aquamarine; */
+        flex-direction: column;
+    }
 
+    .flexible img{
+        width: 100%;
+    }
+
+    .ff{
+        margin: 0;
+    }
+}
 
 
 
