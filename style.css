@@ -1,10 +1,139 @@
-.header{
-    background-color: aqua;
+body{
+      font-family: "Google Sans", sans-serif;
 }
 
 .head{
     color: rgb(215, 165, 103) !important;
 }
+
+.hero{
+    min-height: 100vh;
+    max-width: 100%;
+    /* background-color: aqua; */
+    padding: 20px;
+}
+
+.herohead h1{
+    /* min-height: 40vh; */
+    max-width: 450px;
+    font-weight: bold;
+}
+
+.herohead p{
+    max-width: 450px;
+}
+
+.content{
+    gap: 20px;
+}
+
+
+ .buttons{
+    gap: 10px;
+ }
+
+ .himage img{
+    max-width: 500px;
+ }
+
+ .input{
+    min-height: 30vh;
+    max-width: 100%;
+    background-color:  rgb(127, 184, 42);
+    border-radius: 10px;
+
+ }
+
+  .input .text{
+    max-width: 30%;
+  }
+
+    .input .text h4{
+        max-width: 300px;
+    }
+
+ .input .drive{
+    max-width: 70%;
+ }
+
+
+ .sec3 .text h2{
+    font-weight: bolder;
+ }
+
+ .sec3 .text p{
+    max-width: 400px;
+ }
+
+  .sec3{
+    min-height: 100vh;
+    max-width: 100%;
+  }
+
+
+
+
+ .cards .ca h5{
+  max-width: 350px;
+ }
+
+ .cart{
+    max-width: 100%;
+    background-color: aqua;
+    flex-direction: row !important;
+ }
+
+
+
+
+
+@media(max-width:700px){
+    .hero{
+        background-color: bisque;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .buttons{
+        gap: 20px;
+    }
+
+    .himage img{
+        width: 100%;
+    }
+
+    .input{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .sec3{
+        flex-direction: column !important;
+
+    }
+
+    .carts{
+        flex-direction: column !important;
+    }
+}
+
+
+@media(max-width:635px){
+    .input{
+        /* background-color: aqua; */
+        padding: 1em;
+    }
+
+ .input .drive{
+    flex-direction: column;
+ }
+ .circle img{
+    width: 100%;
+ }
+
+}
+
 
 
 
